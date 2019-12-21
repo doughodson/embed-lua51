@@ -1,0 +1,59 @@
+# vs directories
+build/obj/
+vs2017/
+vs2019/
+gmake/
+
+.vscode/
+
+# keep premake
+!premake*.*
+
+# vs compiler generated files
+*.idb
+*.ilk
+*.pdb
+*.dll
+*.exp
+
+# compiled object files
+*.[oa]
+
+# backup files
+*.bak
+
+#
+# lua library, , dll, interpreter and compiler
+#
+lua.lib
+lua.so
+lua.dll
+lua
+lua.exe
+luac
+luac.exe
+
+stack-dump
+stack-dump.exe
+
+read-config
+read-config.exe
+
+# don't ignore repl (the lua interpreter) in module example
+!bin/lua.so
+!bin/lua.dll
+!bin/lua
+!bin/lua.exe
+
+module.so
+module.dll
+module.lib
+
+#
+# examples based on YouTube Lua tutorial
+#
+tutorial
+tutorial.exe
+
+
+
