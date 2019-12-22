@@ -44,4 +44,6 @@ read-config/read-config.exe
 !bin/lua.dll
 !bin/lua
 !bin/lua.exe
+!bin/luac.exe
+!bin/luac
 
