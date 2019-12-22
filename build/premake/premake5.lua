@@ -117,7 +117,7 @@ workspace "embed-lua"
       targetdir ("../../stack-dump")
       kind "ConsoleApp"
       language "C"
-      includedirs { Lua53_SrcPath }
+      includedirs { Lua51_SrcPath }
       files {
          "../../stack-dump/main.c"
       }
@@ -132,7 +132,7 @@ workspace "embed-lua"
       targetdir ("../../read-config")
       kind "ConsoleApp"
       language "C"
-      includedirs { Lua53_SrcPath }
+      includedirs { Lua51_SrcPath }
       files {
          "../../read-config/main.c",
          "../../read-config/config.lua"
