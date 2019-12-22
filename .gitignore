@@ -33,27 +33,15 @@ lua.exe
 luac
 luac.exe
 
-stack-dump
-stack-dump.exe
+stack-dump/stack-dump
+stack-dump/stack-dump.exe
 
-read-config
-read-config.exe
+read-config/read-config
+read-config/read-config.exe
 
 # don't ignore repl (the lua interpreter) in module example
 !bin/lua.so
 !bin/lua.dll
 !bin/lua
 !bin/lua.exe
-
-module.so
-module.dll
-module.lib
-
-#
-# examples based on YouTube Lua tutorial
-#
-tutorial
-tutorial.exe
-
-
 
